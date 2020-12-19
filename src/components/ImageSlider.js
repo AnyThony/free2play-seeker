@@ -8,13 +8,13 @@ function ImageSlider(props) {
     function slideControl(direction) {
         const lastIndex = images.length - 1
         if (direction) { // slide left
-            if (index == 0)
+            if (index === 0)
                 setIndex(lastIndex);
             else
                 setIndex(index - 1);
         }
         else { // slide right
-            if (index == lastIndex)
+            if (index === lastIndex)
                 setIndex(0);
             else
                 setIndex(index + 1);
