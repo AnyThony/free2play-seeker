@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/free2play-seeker/static/css/main.1b10d380.chunk.css",
-    "main.js": "/free2play-seeker/static/js/main.afcdc0e4.chunk.js",
-    "main.js.map": "/free2play-seeker/static/js/main.afcdc0e4.chunk.js.map",
+    "main.js": "/free2play-seeker/static/js/main.db4eec80.chunk.js",
+    "main.js.map": "/free2play-seeker/static/js/main.db4eec80.chunk.js.map",
     "runtime-main.js": "/free2play-seeker/static/js/runtime-main.e47bb795.js",
     "runtime-main.js.map": "/free2play-seeker/static/js/runtime-main.e47bb795.js.map",
     "static/js/2.3ac7a8aa.chunk.js": "/free2play-seeker/static/js/2.3ac7a8aa.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e47bb795.js",
     "static/js/2.3ac7a8aa.chunk.js",
     "static/css/main.1b10d380.chunk.css",
-    "static/js/main.afcdc0e4.chunk.js"
+    "static/js/main.db4eec80.chunk.js"
   ]
 }
