@@ -9,7 +9,8 @@ async function getCategories() {
 
     let result = {}
     for (const name of CATEGORY_NAMES){
-        const response = await fetch(`https://www.freetogame.com/api/games?category=${name}`);
+        const uri = `https://www.freetogame.com/api/games?category=${name}`
+        const response = await fetch(uri);
         const responseJSON = await response.json()
         result[name] = responseJSON.slice(0,10);
     }
@@ -19,7 +20,8 @@ async function getCategories() {
 async function getGameById(id){
     if (config.useMock) return GameById[id.toString()];
 
-    const response = await fetch(`https://www.freetogame.com/api/game?id=${id}`);
+    const uri = `https://www.freetogame.com/api/game?id=${id}`;
+    const response = await fetch(uri);
     return await response.json()
 }
 
