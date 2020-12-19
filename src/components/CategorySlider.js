@@ -4,14 +4,12 @@ import { getGameById } from "../services";
 
 async function selectItem(selectAction, id){
     const gameData = await getGameById(id);
-    console.log(id, gameData);
     selectAction(gameData);
 }
 
 function SliderItem(props) {
     const { id } = props;
     const { select } = props;
-    console.log(id);
     return (
         <div className="slide-item" onClick={() => selectItem(select, id)}>
             <div className="slide-bg">

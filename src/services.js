@@ -13,7 +13,6 @@ async function getCategories() {
         const responseJSON = await response.json()
         result[name] = responseJSON.slice(0,10);
     }
-    console.log(JSON.stringify(result))
     return result;
 }
 
