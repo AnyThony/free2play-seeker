@@ -23,7 +23,6 @@ function Home() {
     React.useEffect(() => {
         async function fetchCategory() {
             const categories = await getCategories();
-            console.log(categories)
             setCategoryData(categories);
         }
         fetchCategory();
