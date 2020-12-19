@@ -1,8 +1,37 @@
 .image-slider{
+    position: relative;
     height: 100%;
     overflow: hidden;
 }
 
 .image-slider img{
     max-height: 100%;
+    cursor: pointer;
+}
+
+.control {
+    height: 100%;
+    width: 2.5em;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.control span{
+    color: white;
+    font-size: 2rem;
+}
+
+.slide-left{
+    left: 0;
+}
+
+.slide-right{
+    right: 0;
 }
