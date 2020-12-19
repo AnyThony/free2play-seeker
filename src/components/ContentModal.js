@@ -28,6 +28,9 @@ function ContentModal(props) {
                             </p>
                         </div>
                     </div>
+                    <div className="modal-exit" onClick={props.deselect}>
+                        X
+                    </div>
                 </div>
             </div>
         );
