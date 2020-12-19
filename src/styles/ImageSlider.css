@@ -1,0 +1,8 @@
+.image-slider{
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-slider img{
+    max-height: 100%;
+}
