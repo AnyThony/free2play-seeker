@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import '../styles/CategorySlider.css';
 import { getGameById } from "../services";
 
-async function selectItem(selectAction, id){
+async function selectItem(selectAction, id) {
     const gameData = await getGameById(id);
     selectAction(gameData);
 }

@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 
 function ContentModal(props) {
     const data = props.gameData;
-    if (props.selected){
+    if (props.selected) {
         const screenshots = data.screenshots.map(obj => obj.image);
         return (
             <div>
@@ -13,7 +13,7 @@ function ContentModal(props) {
                 </div>
                 <div className="modal-container">
                     <div className="image-showcase">
-                        <ImageSlider images={screenshots}/>
+                        <ImageSlider images={screenshots} />
                     </div>
                     <div className="modal-lower">
                         <div className="info-container">

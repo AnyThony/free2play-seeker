@@ -23,7 +23,7 @@ function ImageSlider(props) {
 
     return (
         <div className="image-slider">
-            <img src={images[index]} onClick={() => slideControl(true)}/>
+            <img src={images[index]} onClick={() => slideControl(true)} />
             <div
                 className="control slide-left"
                 onClick={() => slideControl(true)}
