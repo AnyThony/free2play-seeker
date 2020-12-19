@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/free2play-seeker/static/css/main.abde7dd1.chunk.css",
-    "main.js": "/free2play-seeker/static/js/main.4a609a51.chunk.js",
-    "main.js.map": "/free2play-seeker/static/js/main.4a609a51.chunk.js.map",
+    "main.css": "/free2play-seeker/static/css/main.1b10d380.chunk.css",
+    "main.js": "/free2play-seeker/static/js/main.afcdc0e4.chunk.js",
+    "main.js.map": "/free2play-seeker/static/js/main.afcdc0e4.chunk.js.map",
     "runtime-main.js": "/free2play-seeker/static/js/runtime-main.e47bb795.js",
     "runtime-main.js.map": "/free2play-seeker/static/js/runtime-main.e47bb795.js.map",
     "static/js/2.3ac7a8aa.chunk.js": "/free2play-seeker/static/js/2.3ac7a8aa.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.36246536.chunk.js": "/free2play-seeker/static/js/3.36246536.chunk.js",
     "static/js/3.36246536.chunk.js.map": "/free2play-seeker/static/js/3.36246536.chunk.js.map",
     "index.html": "/free2play-seeker/index.html",
-    "static/css/main.abde7dd1.chunk.css.map": "/free2play-seeker/static/css/main.abde7dd1.chunk.css.map",
+    "static/css/main.1b10d380.chunk.css.map": "/free2play-seeker/static/css/main.1b10d380.chunk.css.map",
     "static/js/2.3ac7a8aa.chunk.js.LICENSE.txt": "/free2play-seeker/static/js/2.3ac7a8aa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e47bb795.js",
     "static/js/2.3ac7a8aa.chunk.js",
-    "static/css/main.abde7dd1.chunk.css",
-    "static/js/main.4a609a51.chunk.js"
+    "static/css/main.1b10d380.chunk.css",
+    "static/js/main.afcdc0e4.chunk.js"
   ]
 }
