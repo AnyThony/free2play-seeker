@@ -2,7 +2,7 @@
 
 ### useMock
 
-In src/config.json you can set useMock (default: true) to false to load directly from the FreeToGame API instead of using the hardcoded data.
+In `src/config.json` you can set useMock (default: true) to false to load directly from the FreeToGame API instead of using the hardcoded data.
 
 ### `npm install`
 
