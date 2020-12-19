@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: #222;
+}
+
+.Home {
+    margin-top: 3.5em;
+}
+
+h2, h3, p {
+    color: white;
+}
+
+.content-body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
